@@ -39,6 +39,7 @@ body {
   padding : 2vh;
   overflow : hidden;
   background-image : linear-gradient(#76ABAE, #90ced1);
+  box-shadow: 0 0 10px #76ABAE;
   margin-top : 10vh;
   margin-right : 5vh;
   margin-left : 5vh;
