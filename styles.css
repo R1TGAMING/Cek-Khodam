@@ -12,11 +12,18 @@ body {
   margin-top : 5vh;
   padding : 0;
   font-family: "Sofia Sans", sans-serif;
+  
+}
+.container a:hover {
+  color : white;
+}
+.container a {
+  color : white;
 }
 .form-khodam {
   border-radius : 2vh;
   padding : 2vh;
-  
+  overflow : hidden;
   background-image : linear-gradient(#76ABAE, #90ced1);
   margin-top : 10vh;
   margin-right : 5vh;
@@ -32,13 +39,12 @@ body {
   text-align: center;
   border : none;
   height : 5vh;
-  text-decoration: underline;
+  
   color : white;
 }
 #form-name::placeholder {
   color : white;
-  font-size : 3vh;
-  text-decoration: underline;
+  font-size : 3vh
 }
 #submit {
   background-color : #618f91;
@@ -53,5 +59,5 @@ body {
 }
 .khodamResult {
   margin-top : 20vh;
-  font-size : 10vh;
+  font-size : 8vh;
 }
